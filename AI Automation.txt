@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- SEO Meta -->
+    <title>Đức Lan - Thiết Bị Văn Phòng, Máy In & Mực In Chính Hãng</title>
+    <meta name="description" content="Công ty Đức Lan chuyên cung cấp máy in, mực in, linh kiện chính hãng. Giá tốt, giao hàng nhanh, hỗ trợ kỹ thuật tận nơi.">
+    <meta name="keywords" content="máy in, mực in, thiết bị văn phòng, duclan.vn, sửa máy in, linh kiện máy in">
+    <meta name="author" content="Duclan.vn">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Đức Lan - Thiết Bị Văn Phòng Chính Hãng">
+    <meta property="og:description" content="Chuyên cung cấp máy in & mực in chất lượng cao">
+    <meta property="og:type" content="website">
+
+    <!-- Bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"/>
+
+    <!-- Chat Widget -->
+    <link href="https://cdn.jsdelivr.net/npm/@n8n/chat/dist/style.css" rel="stylesheet" />
+    <script type="module">
+        import { createChat } from 'https://cdn.jsdelivr.net/npm/@n8n/chat/dist/chat.bundle.es.js';
+        createChat({
+            webhookUrl: 'https://kieu12.app.n8n.cloud/webhook/ee3ad070-641f-4653-9f7d-13b7707b21d3/chat'
+        });
+    </script>
+
+    <style>
+        body {
+            font-family: 'Segoe UI', sans-serif;
+        }
+        .hero {
+            background: linear-gradient(135deg, #0d6efd, #0a58ca);
+            color: white;
+            padding: 100px 0;
+        }
+        .feature-icon {
+            font-size: 40px;
+            color: #0d6efd;
+        }
+        .section-title {
+            font-weight: 700;
+            margin-bottom: 30px;
+        }
+        .product-card img {
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .navbar-brand img {
+            height: 40px;
+             width: auto;
+        }
+        footer {
+            background: #111;
+            color: #ccc;
+            padding: 40px 0;
+        }
+    </style>
+</head>
+
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+    <div class="container">
+        <a class="navbar-brand fw-bold" href="#"><img src="https://admin.duclan.vn/uploads/ckfinder/images/duclan/Home/Logo/LOGO-DUCLAN-2025.png" alt=""></a>
+        <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div id="nav" class="collapse navbar-collapse">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="https://duclan.vn/">Trang chủ</a></li>
+                <li class="nav-item"><a class="nav-link" href="https://duclan.vn/san-pham-noi-bat">Sản phẩm</a></li>
+                <li class="nav-item"><a class="nav-link" href="https://duclan.vn/bao-gia">Dịch vụ</a></li>
+                <li class="nav-item"><a class="nav-link" href="https://duclan.vn/lien-he">Liên hệ</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Hero -->
+<section id="home" class="hero text-center">
+    <div class="container">
+        <h1 class="display-4 fw-bold">Thiết Bị Văn Phòng Chính Hãng</h1>
+        <p class="lead mt-3">Máy in - Mực in - Linh kiện | Giá tốt | Giao hàng nhanh</p>
+        <a href="#products" class="btn btn-light btn-lg mt-4">Xem sản phẩm</a>
+    </div>
+</section>
+
+<!-- Features -->
+<section class="py-5">
+    <div class="container text-center">
+        <h2 class="section-title">Tại sao chọn Đức Lan?</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="feature-icon">⚡</div>
+                <h5>Nhanh chóng</h5>
+                <p>Giao hàng toàn quốc, hỗ trợ nhanh trong 24h</p>
+            </div>
+            <div class="col-md-4">
+                <div class="feature-icon">💰</div>
+                <h5>Giá tốt</h5>
+                <p>Giá cạnh tranh, chiết khấu cao cho doanh nghiệp</p>
+            </div>
+            <div class="col-md-4">
+                <div class="feature-icon">🛠</div>
+                <h5>Hỗ trợ kỹ thuật</h5>
+                <p>Đội ngũ kỹ thuật chuyên sâu, hỗ trợ tận nơi</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Products -->
+<section id="products" class="bg-light py-5">
+    <div class="container">
+        <h2 class="section-title text-center">Sản phẩm nổi bật</h2>
+        <div class="row g-4">
+
+            <div class="col-md-4">
+                <div class="card product-card shadow-sm">
+                    <img src="https://admin.duclan.vn/uploads/ckfinder/images/duclan/San-Pham/50798/50798.jpg" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Máy in Ricoh</h5>
+                        <p class="card-text">Dòng máy in khổ lớn chuyên nghiệp</p>
+                        <a href="#" class="btn btn-primary">Chi tiết</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card product-card shadow-sm">
+                    <img src="https://admin.duclan.vn/uploads/ckfinder/images/duclan/Product/Photocopy/Toner_DL/Mgi/Ricoh/7594.jpg" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Mực in chính hãng</h5>
+                        <p class="card-text">Chất lượng cao, in sắc nét</p>
+                        <a href="#" class="btn btn-primary">Chi tiết</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card product-card shadow-sm">
+                    <img src="https://admin.duclan.vn/uploads/ckfinder/images/duclan/San-Pham/9302-1200x1200.jpg" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Linh kiện máy in</h5>
+                        <p class="card-text">Đầy đủ trống, gạt, chip...</p>
+                        <a href="#" class="btn btn-primary">Chi tiết</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- Services -->
+<section id="services" class="py-5">
+    <div class="container text-center">
+        <h2 class="section-title">Dịch vụ</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <h5>Sửa chữa máy in</h5>
+                <p>Khắc phục lỗi nhanh chóng, chuyên nghiệp</p>
+            </div>
+            <div class="col-md-4">
+                <h5>Cho thuê máy in</h5>
+                <p>Giải pháp tiết kiệm cho doanh nghiệp</p>
+            </div>
+            <div class="col-md-4">
+                <h5>Bảo trì định kỳ</h5>
+                <p>Giúp máy hoạt động ổn định lâu dài</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- CTA -->
+<section class="bg-primary text-white text-center py-5">
+    <div class="container">
+        <h2>Cần tư vấn ngay?</h2>
+        <p>Chat trực tiếp với chúng tôi hoặc để lại thông tin</p>
+        <a href="#contact" class="btn btn-light">Liên hệ ngay</a>
+    </div>
+</section>
+
+<!-- Contact -->
+<section id="contact" class="py-5">
+    <div class="container">
+        <h2 class="section-title text-center">Liên hệ</h2>
+        <div class="row">
+            <div class="col-md-6">
+                <input class="form-control mb-3" placeholder="Họ tên">
+                <input class="form-control mb-3" placeholder="Email">
+                <textarea class="form-control mb-3" rows="4" placeholder="Nội dung"></textarea>
+                <button class="btn btn-primary">Gửi</button>
+            </div>
+            <div class="col-md-6">
+                <h5>Thông tin</h5>
+                <p>Website: duclan.vn</p>
+                <p>Email: contact@duclan.vn</p>
+                <p>Hotline: 0900 xxx xxx</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="text-center">
+    <div class="container">
+        <p>© 2026 Duclan.vn - All Rights Reserved</p>
+    </div>
+</footer>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
